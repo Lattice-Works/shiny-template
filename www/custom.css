@@ -6,11 +6,21 @@
   height: 55px;
 }
 
+.navbar-title {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2e2e34;
+
+}
 .nav .navbar, .navbar-default {
-  width: 1300px;
   height: 55px;
   background-color: #ffffff;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -23,7 +33,7 @@
 .portalname {
   width: 64px;
   height: 25.3px;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -38,7 +48,7 @@
     float: left;
     margin: 0;
   height: 55px;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
   color: #8e929b;
 
@@ -55,9 +65,15 @@
   color: #6124e2!important;
 }
 
+.tab-content, body {
+  background-color: #f9f9fd!important;
+
+}
+
 
 .logo {
   width: 13px;
+  height: 26px;
 }
 
 .well {
@@ -66,10 +82,73 @@
 }
 
 
-.js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {
+.irs-bar {
   background: #6124e2;
   border-color: #6124e2;
-  
 }
 
+.irs-from, .irs-to {
+  background: #361876;
+}
+
+.content-wrapper{
+  background-color:#f9f9fd!important;
+}
+.content{
+  background-color:#f9f9fd!important;
+}
+.box, .box-solid , .box-primary, .box-header {
+  background-color:#b6bbc7!important;
+  border-bottom-color:#dcdce7!important;
+  border-left-color:#dcdce7!important;
+  border-right-color:#dcdce7!important;
+  border-top-color:#dcdce7!important;
+  color: #2e2e34!important;
+  background:#ffffff!important;
+  border-bottom-width:1px!important;
+  border-left-width:1px!important;
+  border-right-width:1px!important;
+  border-top-width:1px!important;
+}
+
+.box-primary {
+  min-height: 300px;
+}
+
+.box-title{
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2e2e34;
+  padding: 25px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.btn, .btn-primary {
+  border-radius: 3px;
+  background-color: #6124e2;
+  font-family: Open Sans, sans-serif;
+  border-color: #6124e2;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+
+.small-box{
+  background-color:#b6bbc7!important;
+}
+
+@font-face {  
+  font-family: Open Sans, sans serif!important;
+}
 
