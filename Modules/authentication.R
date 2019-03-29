@@ -20,12 +20,6 @@ custom_auth_function <- function(jwt) {
     return(role %in% all_roles)
 }
 
-logger <- function(stringinput) {
-    return(paste0("console.log('",
-                  stringinput,
-                  "');"))
-}
-
 redirect <- function(url) {
     loginurl <- paste0('window.location.replace("',
                        url,
